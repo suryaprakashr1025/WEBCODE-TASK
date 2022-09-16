@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+/* POOKIMON HEADER */
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+    background-color: dodgerblue;
+    color:white;
+    padding:10px 0px;
+}
+
+
+/* THIS IS DIV CLASS */
+.pookimon{
+    margin:50px 400px;    
+}
+
+
+/* THIS IS INPUT ID */
+#number{
+    padding:0px 10px;
+    outline: none;
+    margin-left:140px
+}
+
+
+/* THIS DIV IS INSIDE A INPUT BOX AND BUTTON  */
+div{
+    display: flex;
+}
+
+
+/* THIS IS BUTTON ID AND USING ACTIVE METHOD */
+#search{
+    margin:0px 30px;
+    border-radius: 6px;
+    border:none ;
+    background-color: dodgerblue;
+    outline:none;
+    color:white;
+    padding:5px 15px;
+}
+#search:active{
+   color: black;
+}
+
+
+/* TABLE ROW INSIDE TABLE HEADER */
+.pd th{
+    padding:1px 80px;
+    border:1px solid black;
+}
+.ab th{
+    padding:1px 133px;
+    border:1px solid black;  
+}
+.mv th{
+    padding:1px 133px;
+    border:1px solid black;
+}
+
+
+/* ALL TABLEDATA */
+td{
+    border: 1px solid black;
+    text-align: center; 
+}
+
+
+/* ID,NAME,WEIGHT TABLE */
+#pData{
+    margin:20px 400px;
+    border:1px solid black;
+}
+
+
+/* ABILITY TABLE  */
+#ab{
+    margin:20px 400px;
+    border:1px solid black;
+}
+
+
+/* MOVES TABLE  */
+#mv{
+    margin:20px 400px;
+    border:1px solid black;
+}
+
+
+
+/* H5 TAG CONTENT IS ABILITY AND MOVES  */
+h5{
+    padding-top:10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color:dodgerblue;    
+}
